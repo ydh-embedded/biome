@@ -1,5 +1,10 @@
 {
-    "markdown.styles": [
-        "CSS\\markdown-style.css",
-    ]
+    "markdown.styles":
+    [ "CSS\\markdown-style.css",
+    ],
+
+    "editor.codeActionsOnSave":
+    
+    {        "quickfix.biome": "explicit"
+    }
 }
