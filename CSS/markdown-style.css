@@ -1,0 +1,14 @@
+/* 
+Angabe von body ist notwendig, 
+um Spezifizität zu erhöhen.
+Eigene Stylesheets werden vor den internen
+Stylesheets geladen.
+*/
+body :not(pre):not(.hljs) > code {
+    color: rgb(75, 193, 240);
+    font-weight: 300;
+    font-family: "Consolas", monospace;
+    background-color: rgb(71, 118, 221);
+    padding: 0.1rem 0.25rem;
+    border-radius: 4px;
+}
